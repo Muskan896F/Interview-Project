@@ -1,0 +1,1276 @@
+[
+  {
+    "session_id": "524c3c0c884d44ee",
+    "lead_id": 6,
+    "language": "english",
+    "current_node": "booking",
+    "started_at": "2026-07-16T07:02:47.120412",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "2 BHK",
+      "purpose": "self use",
+      "timeline": "next month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can I speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "And the word?"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Two bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What will be the purpose of your purchase, is it for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Next month."
+      },
+      {
+        "role": "assistant",
+        "content": "Great, would you like to schedule a site visit this coming weekend to view our sample flats?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit? Would you prefer a Saturday, Sunday, or a specific date?"
+      },
+      {
+        "role": "user",
+        "content": "Saturday."
+      },
+      {
+        "role": "assistant",
+        "content": "That’s great to hear! Could you please let me know your preferred date for the site visit? Would you prefer a Saturday, Sunday, or a specific date?"
+      },
+      {
+        "role": "user",
+        "content": "I will prefer Saturday."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit, like Saturday or Sunday, or if you have a specific date in mind?"
+      }
+    ]
+  },
+  {
+    "session_id": "7f491f46702744b4",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "booking",
+    "started_at": "2026-07-16T06:40:06.884064",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "2 BHK",
+      "purpose": "self-use",
+      "timeline": "next month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Two bedroom, all kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you interested in, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Flat two bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What is the purpose of your purchase—are you looking for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For a self use."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Next month."
+      },
+      {
+        "role": "assistant",
+        "content": "Great, would you like to schedule a site visit this coming weekend to view our sample flats?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit? Would you prefer this Saturday, Sunday, or a specific date?"
+      }
+    ]
+  },
+  {
+    "session_id": "1508e0f3dc53445e",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "booking",
+    "started_at": "2026-07-16T06:27:32.904676",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "2 BHK",
+      "purpose": "self use",
+      "timeline": "next month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "No. My budget is 50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Two bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your purpose for purchasing the flat? Is it for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use,"
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make a purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Next month."
+      },
+      {
+        "role": "assistant",
+        "content": "Great, would you like to schedule a site visit this coming weekend to view our sample flats?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. I will let you know. Yes. I will let you know."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit? Would you prefer a Saturday, Sunday, or a specific date?"
+      },
+      {
+        "role": "user",
+        "content": "On Monday. Next Monday."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit? Would you prefer a Saturday, Sunday, or a specific date?"
+      }
+    ]
+  },
+  {
+    "session_id": "62159b167c794732",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-16T06:19:12.056109",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "2 BHK",
+      "purpose": "self use",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your budget range for the property?"
+      },
+      {
+        "role": "user",
+        "content": "50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you interested in, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Two bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your purpose for purchasing the flat 2 Bedroom Hall Kitchen—are you looking for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Bye. Next month?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand you're looking at next month. Just to let you know, possession for Shubh Residency is expected in December 2026, and we're currently 70% through construction. Would you be interested in scheduling a site visit to see the progress?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "By the end of, this year?"
+      },
+      {
+        "role": "assistant",
+        "content": "Possession for Shubh Residency is expected in December 2026, so it won't be available by the end of this year. Would you be interested in scheduling a site visit to see the project and its amenities?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. I'm interested."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make a purchase?"
+      }
+    ]
+  },
+  {
+    "session_id": "89d4e645fa93460c",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "booking",
+    "started_at": "2026-07-16T06:10:52.412853",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "3 BHK",
+      "purpose": "self use",
+      "timeline": "next month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is, 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you interested in, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Three bedroom, whole kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Three bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What is the purpose of your property search—are you looking for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a self use."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make a purchase?"
+      },
+      {
+        "role": "user",
+        "content": "By next month."
+      },
+      {
+        "role": "assistant",
+        "content": "Great, would you like to schedule a site visit this coming weekend to view our sample flats?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit, like Saturday or Sunday, or a specific date that works for you?"
+      },
+      {
+        "role": "user",
+        "content": "Saturday."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Could you please let me know your preferred date for the site visit? Would you prefer a Saturday, Sunday, or a specific date?"
+      }
+    ]
+  },
+  {
+    "session_id": "4eacebbb657b4418",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "knowledge",
+    "started_at": "2026-07-16T06:01:43.497016",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English? Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is, 50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "What area are you considering for your new home?"
+      },
+      {
+        "role": "user",
+        "content": "Any?"
+      },
+      {
+        "role": "assistant",
+        "content": "We have flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, and flat 4 Bedroom Hall Kitchen options available at Shubh Residency. Would you be interested in scheduling a site visit to see these luxury apartments?"
+      }
+    ]
+  },
+  {
+    "session_id": "b29390dfbed64923",
+    "lead_id": 1,
+    "language": "gujarati",
+    "current_node": "greeting",
+    "started_at": "2026-07-16T06:01:17.396055",
+    "ended_at": null,
+    "qualification": {
+      "budget": "",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      }
+    ]
+  },
+  {
+    "session_id": "ce92c15fad574b9d",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-16T05:52:45.794150",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "What area are you considering for your new home?"
+      },
+      {
+        "role": "user",
+        "content": "In Ahmedabad?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Shubh Residency is located in Shela, Ahmedabad. It’s a premium residential township spread across 12 acres with luxury apartments. Would you be interested in scheduling a site visit to see the project?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Three bedroom, all kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      },
+      {
+        "role": "user",
+        "content": "Three bedroom hall kitchen."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 Bedroom Hall Kitchen, flat 3 Bedroom Hall Kitchen, or flat 4 Bedroom Hall Kitchen?"
+      }
+    ]
+  },
+  {
+    "session_id": "53615897f43b4236",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "knowledge",
+    "started_at": "2026-07-16T05:44:30.516154",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is, 60 lakh. My budget is 60 lakh. My budget is 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad. My preferred location is Ahmedabad. My preferred location is Ahmedabad. Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! Shela is a fantastic location with easy access to amenities like a clubhouse, swimming pool, and nearby schools and hospitals. What type of flat are you interested in, like a flat 2 Bee Aich Kay or flat 3 Bee Aich Kay?"
+      }
+    ]
+  },
+  {
+    "session_id": "ac5e79bbc42f4587",
+    "lead_id": 6,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-16T05:38:26.199016",
+    "ended_at": null,
+    "qualification": {
+      "budget": "50 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please let me know your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 B. H. K., flat 3 B. H. K., or flat 4 B. H. K.?"
+      }
+    ]
+  },
+  {
+    "session_id": "f5fa72a556534c25",
+    "lead_id": 5,
+    "language": "english",
+    "current_node": "booking_decision",
+    "started_at": "2026-07-16T05:30:32.879930",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "3 BHK",
+      "purpose": "self use",
+      "timeline": "next month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Khub saras! Hu tamare mate best property option find kari shaku e mate shu hu tamne thoda questions puchhi shaku?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is, near about 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of flat are you looking for, like a flat 2 B-H-K, flat 3 B-H-K, or flat 4 B-H-K?"
+      },
+      {
+        "role": "user",
+        "content": "Three b h k."
+      },
+      {
+        "role": "assistant",
+        "content": "What will be the purpose of your purchase—are you looking for investment or self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use."
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Next month."
+      },
+      {
+        "role": "assistant",
+        "content": "Great, would you like to schedule a site visit this coming weekend to view our sample flats?"
+      }
+    ]
+  },
+  {
+    "session_id": "34619766ea034435",
+    "lead_id": 4,
+    "language": "english",
+    "current_node": "booking_decision",
+    "started_at": "2026-07-16T04:48:46.144854",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "Ahmedabad",
+      "property_type": "2 BHK",
+      "purpose": "self use",
+      "timeline": "month"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. Khub saras! Hu tamare mate best property option find kari shaku e mate shu hu tamne thoda questions puchhi shaku?"
+      },
+      {
+        "role": "user",
+        "content": "English"
+      },
+      {
+        "role": "assistant",
+        "content": "Aapno budget su chhe, je aapne Shubh Residency ma property kharidva mate consider kariye chhiye?"
+      },
+      {
+        "role": "user",
+        "content": "Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, I can speak in English! Shubh Residency is a premium residential township in Shela, Ahmedabad, offering luxury 2 BHK, 3 BHK, and 4 BHK apartments with world-class amenities. Would you be interested in scheduling a site visit to see the project?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property?"
+      },
+      {
+        "role": "user",
+        "content": "60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please let me know your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "Two."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "Two BHK."
+      },
+      {
+        "role": "assistant",
+        "content": "May I ask if you're looking to purchase the property for investment purposes or for self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use,"
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "After a month."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. Is it a good time to talk?"
+      }
+    ]
+  },
+  {
+    "session_id": "b59332813d9444df",
+    "lead_id": 3,
+    "language": "english",
+    "current_node": "booking_decision",
+    "started_at": "2026-07-15T12:39:39.445415",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "ahmedabad",
+      "property_type": "3 BHK",
+      "purpose": "self use",
+      "timeline": "2 months"
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Khub saras! Hu tamare mate best property option find kari shaku e mate shu hu tamne thoda questions puchhi shaku?"
+      },
+      {
+        "role": "user",
+        "content": "Hello? Can you speak in English?"
+      },
+      {
+        "role": "assistant",
+        "content": "May I ask what your budget is for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "My preferred location is Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "Three b h k."
+      },
+      {
+        "role": "assistant",
+        "content": "May I ask if you are looking for the property for investment or for self-use?"
+      },
+      {
+        "role": "user",
+        "content": "For self use,"
+      },
+      {
+        "role": "assistant",
+        "content": "When are you looking to make your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "No. After two months."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. Is it a good time to talk?"
+      }
+    ]
+  },
+  {
+    "session_id": "593d98e5f124485d",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-15T12:19:56.821488",
+    "ended_at": null,
+    "qualification": {
+      "budget": "60 lakh",
+      "preferred_location": "Ahmedabad",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your budget for the property you're looking for?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 60 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please share your preferred location for the property?"
+      },
+      {
+        "role": "user",
+        "content": "Ahmedabad."
+      },
+      {
+        "role": "assistant",
+        "content": "Aapne property type ke liye kya socha hai? 2 BHK, 3 BHK ya kuch aur?"
+      },
+      {
+        "role": "user",
+        "content": "Three b HK."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "Three b HK."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "Three b h k."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of property are you looking for, like a 2 BHK, 3 BHK, or something else?"
+      }
+    ]
+  },
+  {
+    "session_id": "7ea103bdddb14877",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-15T12:04:59.789106",
+    "ended_at": null,
+    "qualification": {
+      "budget": "",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello? Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! May I ask what your budget range is for the property?"
+      },
+      {
+        "role": "user",
+        "content": "40 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. Kya yeh accha samay hai baat karne ke liye?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 40 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! May I ask what your budget is for the property you are looking to purchase?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 50 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. Is it a good time to talk?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. It is a good time to talk."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! May I ask what your budget is for the property you are looking to purchase?"
+      },
+      {
+        "role": "user",
+        "content": "My budget is 40 lakh."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, I am Sarah calling from Patel Group Developers. I understand your budget is 40 lakh, but our starting price for a 2 BHK Comfort is 45 lakh. Would you be interested in booking a site visit to explore options that might fit your needs?"
+      },
+      {
+        "role": "user",
+        "content": "Yes. I'm interested."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! May I ask what your budget range is for the property?"
+      }
+    ]
+  },
+  {
+    "session_id": "0426c5e73a244451",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "qualification",
+    "started_at": "2026-07-15T11:51:06.012111",
+    "ended_at": null,
+    "qualification": {
+      "budget": "",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hello! Hu Sarah bolu chhu, Patel Group Developers mathi. Tamari Shubh Residency ni inquiry mate call kari chhu — shuu hamare atyare thodi vaat thay shke?"
+      },
+      {
+        "role": "user",
+        "content": "Hello, Cole? Hello? Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wonderful! May I ask you a few quick questions to help find the perfect property configuration for you?"
+      },
+      {
+        "role": "user",
+        "content": "Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! May I ask what your budget range is for the property you are looking for?"
+      }
+    ]
+  },
+  {
+    "session_id": "81a2fade89d043a7",
+    "lead_id": 2,
+    "language": "english",
+    "current_node": "permission",
+    "started_at": "2026-07-15T09:52:19.300781",
+    "ended_at": null,
+    "qualification": {
+      "budget": "",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Saru, hu samji shaku chhu. Skyline Meadows ma badhi premium amenities chhe. Tamara mate site visit schedule kari aapu?"
+      },
+      {
+        "role": "user",
+        "content": "Hello, Cole?"
+      },
+      {
+        "role": "assistant",
+        "content": "Saru, hu samji shaku chhu. Skyline Meadows ma badhi premium amenities chhe. Tamara mate site visit schedule kari aapu?"
+      }
+    ]
+  },
+  {
+    "session_id": "87a243fa99b34391",
+    "lead_id": 1,
+    "language": "english",
+    "current_node": "permission",
+    "started_at": "2026-07-15T09:37:10.007064",
+    "ended_at": null,
+    "qualification": {
+      "budget": "",
+      "preferred_location": "",
+      "property_type": "",
+      "purpose": "",
+      "timeline": ""
+    },
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Saru, hu samji shaku chhu. Skyline Meadows ma badhi premium amenities chhe. Tamara mate site visit schedule kari aapu?"
+      },
+      {
+        "role": "user",
+        "content": "Hello? Hello?"
+      },
+      {
+        "role": "assistant",
+        "content": "Saru, hu samji shaku chhu. Skyline Meadows ma badhi premium amenities chhe. Tamara mate site visit schedule kari aapu?"
+      }
+    ]
+  }
+]

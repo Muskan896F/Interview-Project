@@ -1,0 +1,19 @@
+{
+  "active_offers": [
+    {
+      "title": "Navratri Special Offer",
+      "description": "Navratri booking par tame modular kitchen gift tarike melvi shako chho.",
+      "valid_until": "2026-10-31"
+    },
+    {
+      "title": "No Pre-EMI Offer",
+      "description": "Possession sudhi koi pre-EMI pay karva ni jarur nathi.",
+      "valid_until": "2026-12-31"
+    },
+    {
+      "title": "Spot Booking Discount",
+      "description": "Site visit par j spot booking karo to cash discount 50,000 malse.",
+      "valid_until": "Ongoing"
+    }
+  ]
+}

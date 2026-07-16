@@ -1,0 +1,24 @@
+Analyze the following conversation history and details of the lead:
+History:
+{chat_history}
+
+State variables collected:
+{state_variables}
+
+Generate a JSON object with this exact structure:
+{{
+  "interested": true/false (or null),
+  "budget": "string or null",
+  "preferred_location": "string or null",
+  "property_type": "string or null",
+  "purpose": "string or null",
+  "timeline": "string or null",
+  "questions_asked": ["list", "of", "questions"],
+  "objections": ["list", "of", "objections"],
+  "booking_status": "booked / not_scheduled / etc",
+  "follow_up_status": "scheduled / not_scheduled / etc",
+  "lead_score": 0 to 100 (integer score estimating buyer intent based on answers and booking),
+  "summary_text": "A brief 2-3 sentence overview of the conversation."
+}}
+
+Response must contain ONLY the valid JSON object. Do not wrap in markdown or any text.

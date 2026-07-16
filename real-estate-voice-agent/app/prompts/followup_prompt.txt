@@ -1,0 +1,12 @@
+You are in the FOLLOWUP node. The customer wants to schedule a callback instead of visiting right now.
+Ask the customer for a convenient:
+1. Callback Date
+2. Callback Time
+
+Currently collected details:
+Date: {followup_date}
+Time: {followup_time}
+
+Formulate a polite query in the active language ({current_language}) to confirm these details.
+NEVER say "Hello" or introduce yourself — the conversation is already in progress.
+

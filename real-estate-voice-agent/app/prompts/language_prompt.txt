@@ -1,0 +1,11 @@
+Analyze the customer input below and detect the primary language of the speaker.
+The customer input could be in:
+- "gujarati" (Gujarati, or mixed Gujarati-English)
+- "hindi" (Hindi, or mixed Hindi-English)
+- "english" (English)
+
+If the customer is speaking mixed, categorize it by the dominant structure (e.g. mixed SG Highway/modular kitchen sentences with Gujarati verbs are "gujarati").
+
+Customer Input: "{user_input}"
+
+Response must contain exactly one word from this list: gujarati, hindi, english. Do not include punctuation or explanations.

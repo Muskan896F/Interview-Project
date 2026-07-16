@@ -1,0 +1,31 @@
+You are extracting a single qualification field from a customer's reply.
+
+Field to extract: {field_name}
+Customer said: "{user_input}"
+
+Rules:
+- Extract ONLY the value for "{field_name}". Return ONLY the extracted value as a short plain string. No explanation, no punctuation around it.
+- If the value is NOT present in the customer's reply, return exactly: NOT_FOUND
+- The input may be a voice transcription — spoken words like "three b hk" or "three b h k" mean "3 BHK". Handle these variants.
+- IMPORTANT: "Bedroom Hall Kitchen" is the full form of "BHK". So "3 Bedroom Hall Kitchen" = "3 BHK", "two bedroom hall kitchen" = "2 BHK". Also handle STT errors like "bedroom all kitchen" (misheard "hall" as "all").
+- Examples:
+  - field=budget, input="My budget is 40 lakh" → 40 lakh
+  - field=budget, input="around 50 to 60 lakh" → 50-60 lakh
+  - field=budget, input="60 lakh" → 60 lakh
+  - field=preferred_location, input="I prefer Shela area" → Shela
+  - field=preferred_location, input="Ahmedabad" → Ahmedabad
+  - field=property type, input="I want a 3 BHK" → 3 BHK
+  - field=property type, input="Three b HK" → 3 BHK
+  - field=property type, input="three b h k" → 3 BHK
+  - field=property type, input="two bhk" → 2 BHK
+  - field=property type, input="3 b hk" → 3 BHK
+  - field=property type, input="three bedroom hall kitchen" → 3 BHK
+  - field=property type, input="3 bedroom hall kitchen" → 3 BHK
+  - field=property type, input="two bedroom hall kitchen" → 2 BHK
+  - field=property type, input="three bedroom all kitchen" → 3 BHK
+  - field=purpose, input="It is for self use" → self-use
+  - field=purpose, input="investment" → investment
+  - field=timeline, input="within 6 months" → 6 months
+  - field=timeline, input="3 months" → 3 months
+  - field=budget, input="Yes, I am interested" → NOT_FOUND
+  - field=property type, input="Yes. Sure." → NOT_FOUND

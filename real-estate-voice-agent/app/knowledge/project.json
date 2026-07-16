@@ -1,0 +1,21 @@
+{
+  "name": "Shubh Residency",
+  "developer": "Patel Group Developers",
+  "tagline": "Where Dreams Meet Luxury Living",
+  "location": {
+    "area": "Shela",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380058",
+    "landmark": "Near Shela Circle, SG Highway",
+    "google_maps_link": "https://maps.google.com/?q=Shela+Ahmedabad"
+  },
+  "rera_number": "PR/GJ/AHMEDABAD/AHMEDABAD CITY/AUDA/RAA10114/180120R",
+  "total_area_acres": 12,
+  "total_towers": 6,
+  "floors_per_tower": 22,
+  "total_units": 480,
+  "possession_date": "December 2026",
+  "construction_status": "Under construction — 70% complete",
+  "overview": "Shubh Residency is a premium residential township by Patel Group located in Shela, Ahmedabad. Spread across 12 acres with 6 towers, the project offers 2 BHK, 3 BHK, and 4 BHK luxury apartments with world-class amenities, open green spaces, and smart-home features."
+}

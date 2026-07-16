@@ -1,0 +1,713 @@
+/* ──────────────────────────────────────────────────────────
+   Real Estate Voice Agent Platform - Premium Design System
+   ────────────────────────────────────────────────────────── */
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+  
+  /* Color Palette */
+  --bg-main: #0B0F19;
+  --bg-card: rgba(17, 24, 39, 0.7);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  
+  --primary-accent: #E5C07B; /* Warm Gold / Real Estate Luxury */
+  --primary-glow: rgba(229, 192, 123, 0.2);
+  --secondary-accent: #4FA887; /* Soft Green / Confirmed status */
+  
+  --text-main: #F3F4F6;
+  --text-muted: #9CA3AF;
+  --text-dark: #111827;
+  
+  --danger-accent: #EF4444;
+  --danger-glow: rgba(239, 68, 68, 0.25);
+  
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Background Glowing Accents */
+.glow-bg {
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background: radial-gradient(circle at 75% 25%, rgba(229, 192, 123, 0.05), transparent 45%),
+              radial-gradient(circle at 25% 75%, rgba(79, 168, 135, 0.05), transparent 45%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.dashboard-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Header ── */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(17, 24, 39, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.house-logo {
+  font-size: 32px;
+  color: var(--primary-accent);
+  text-shadow: 0 0 15px var(--primary-glow);
+}
+
+.logo-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo-text span {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.app-status {
+  display: flex;
+  gap: 12px;
+}
+
+.status-badge {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-muted);
+}
+
+.status-indicator.active {
+  background: var(--secondary-accent);
+  box-shadow: 0 0 8px var(--secondary-accent);
+}
+
+/* ── Dashboard Grid ── */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Cards & Glassmorphism ── */
+.card {
+  border-radius: 20px;
+  border: 1px solid var(--border-glass);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.glassmorphism {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-accent);
+}
+
+/* ── Form Inputs ── */
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.form-group input, .form-group select {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 14px;
+  transition: var(--transition-smooth);
+}
+
+.form-group input:focus, .form-group select:focus {
+  outline: none;
+  border-color: var(--primary-accent);
+  box-shadow: 0 0 10px var(--primary-glow);
+}
+
+/* ── Buttons ── */
+.action-btn {
+  background: var(--primary-accent);
+  color: var(--text-dark);
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: var(--transition-smooth);
+}
+
+.action-btn:hover:not(.disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px var(--primary-glow);
+}
+
+.action-btn.disabled, button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.small-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+/* ── Outbound Call Panel ── */
+.call-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.call-badge {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.language-badge {
+  background: rgba(79, 168, 135, 0.15);
+  color: var(--secondary-accent);
+  border: 1px solid rgba(79, 168, 135, 0.3);
+}
+
+.call-action-row {
+  display: flex;
+  gap: 16px;
+}
+
+.call-btn {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition-smooth);
+}
+
+.call-btn.start {
+  background: var(--secondary-accent);
+  color: var(--text-main);
+  box-shadow: 0 4px 15px rgba(79, 168, 135, 0.2);
+}
+
+.call-btn.end {
+  background: var(--danger-accent);
+  color: var(--text-main);
+  box-shadow: 0 4px 15px var(--danger-glow);
+}
+
+.call-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+/* ── Transcript Area ── */
+.chat-transcript-container {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-glass);
+  border-radius: 12px;
+  height: 260px;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.chat-transcript {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.system-message {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+}
+
+.dialogue-turn {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dialogue-turn.agent {
+  align-self: flex-start;
+  background: rgba(229, 192, 123, 0.08);
+  border-left: 3px solid var(--primary-accent);
+}
+
+.dialogue-turn.user {
+  align-self: flex-end;
+  background: rgba(255, 255, 255, 0.05);
+  border-right: 3px solid var(--text-muted);
+}
+
+.dialogue-turn .speaker-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-accent);
+  margin-bottom: 4px;
+}
+
+.dialogue-turn.user .speaker-label {
+  color: var(--text-muted);
+  text-align: right;
+}
+
+/* ── Voice recording controls ── */
+.voice-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.mic-wave-pulse {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mic-btn-main {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: var(--primary-accent);
+  color: var(--text-dark);
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: var(--transition-smooth);
+}
+
+.mic-btn-main.recording {
+  background: var(--danger-accent);
+  color: var(--text-main);
+  box-shadow: 0 0 20px var(--danger-glow);
+}
+
+.wave-ring {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--primary-accent);
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.mic-btn-main.recording ~ .wave-ring {
+  background: var(--danger-accent);
+  animation: pulse-ring 1.8s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.ring-2 { animation-delay: 0.3s !important; }
+.ring-3 { animation-delay: 0.6s !important; }
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.voice-label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Fallback Chat input styling */
+.chat-input-fallback {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-glass);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.chat-input-fallback input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+
+.chat-input-fallback button {
+  background: var(--primary-accent);
+  color: var(--text-dark);
+  border: none;
+  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+/* ── Qualification Summary Fields ── */
+.summary-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.summary-empty-state i {
+  font-size: 40px;
+  color: rgba(229, 192, 123, 0.2);
+}
+
+.summary-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-row-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.summary-item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-item label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.summary-item span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.summary-block {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  padding: 14px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary-block label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.summary-block p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-main);
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.pill.negative {
+  background: rgba(239, 68, 68, 0.15);
+  color: #F87171;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Score dial */
+.score-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(229, 192, 123, 0.04);
+  border: 1px solid rgba(229, 192, 123, 0.15);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.score-text h3 {
+  font-size: 16px;
+  color: var(--primary-accent);
+}
+
+.score-text p {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.score-badge {
+  background: var(--primary-accent);
+  color: var(--text-dark);
+  font-weight: 800;
+  font-size: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px var(--primary-glow);
+}
+
+/* ── CRM / Bookings Status ── */
+.booking-status-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.booking-field-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.status-tag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.status-tag.confirmed {
+  background: rgba(79, 168, 135, 0.15);
+  color: var(--secondary-accent);
+  border: 1px solid rgba(79, 168, 135, 0.3);
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: var(--border-glass);
+}
+
+.manual-booking-actions h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.manual-input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.manual-input-grid input {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 13px;
+}
+
+.manual-btn-row {
+  display: flex;
+  gap: 12px;
+}
+
+.manual-btn-row button {
+  flex: 1;
+}
+
+/* Pulse animation utility */
+.pulse {
+  animation: pulsing 1.5s infinite;
+}
+
+@keyframes pulsing {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+/* Hidden elements utility */
+.hidden {
+  display: none !important;
+}
+
+/* Scrollbar tweaks */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-glass);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.15);
+}

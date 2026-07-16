@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubh Residency - Outbound Voice Agent Platform</title>
+  
+  <!-- Typography & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="glow-bg"></div>
+  
+  <div class="dashboard-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-logo">
+        <i class="fa-solid fa-house-chimney-user house-logo"></i>
+        <div class="logo-text">
+          <h1>SHUBH RESIDENCY</h1>
+          <span>Patel Group Outbound Lead Engine</span>
+        </div>
+      </div>
+      
+      <div class="app-status">
+        <div class="status-badge"><span class="status-indicator active pulse"></span> Agent Active</div>
+        <div class="status-badge"><span class="status-indicator active"></span> DB Online</div>
+      </div>
+    </header>
+
+    <!-- Workspace Grid -->
+    <main class="dashboard-grid">
+      
+      <!-- Left Column: Lead Capture & Outbound Call Interface -->
+      <div class="grid-column">
+        <!-- 1. Lead Information Card -->
+        <section class="card glassmorphism lead-card">
+          <div class="card-header">
+            <h2><i class="fa-solid fa-address-card"></i> Lead Information</h2>
+          </div>
+          <form id="lead-form" class="lead-form">
+            <div class="input-row">
+              <div class="form-group">
+                <label for="lead-name">Name</label>
+                <input type="text" id="lead-name" placeholder="Enter Full Name" required autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label for="lead-phone">Phone Number</label>
+                <input type="tel" id="lead-phone" placeholder="10-digit Mobile" required autocomplete="off">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="form-group">
+                <label for="lead-email">Email</label>
+                <input type="email" id="lead-email" placeholder="email@example.com" autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label for="lead-source">Source</label>
+                <select id="lead-source">
+                  <option value="Facebook Ads">Facebook Ads</option>
+                  <option value="Google Search">Google Search</option>
+                  <option value="Website Inquiry" selected>Website Inquiry</option>
+                  <option value="Referral">Referral</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" id="save-lead-btn" class="action-btn"><i class="fa-solid fa-user-plus"></i> Save and Register Lead</button>
+          </form>
+        </section>
+
+        <!-- 2. Voice Agent Interface -->
+        <section class="card glassmorphism voice-card">
+          <div class="card-header">
+            <h2><i class="fa-solid fa-microphone-lines"></i> Live Outbound Call</h2>
+            <div class="call-badges">
+              <div class="call-badge hidden" id="current-phase-badge">Phase: Greeting</div>
+              <div class="call-badge language-badge hidden" id="current-lang-badge">Language: Gujarati</div>
+            </div>
+          </div>
+
+          <div class="call-action-row">
+            <button id="start-call-btn" class="call-btn start disabled" disabled><i class="fa-solid fa-phone-volume"></i> Start Conversation</button>
+            <button id="end-call-btn" class="call-btn end hidden"><i class="fa-solid fa-phone-slash"></i> Disconnect</button>
+          </div>
+
+          <!-- Live Chat Logs -->
+          <div class="chat-transcript-container">
+            <div class="chat-transcript" id="chat-transcript-box">
+              <div class="system-message">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>Fill the Lead form, save it, then click "Start Conversation" to begin outbound qualification with Sarah.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Call Voice Interaction Controls -->
+          <div class="voice-controls">
+            <div class="mic-wave-pulse">
+              <div class="wave-ring ring-3"></div>
+              <div class="wave-ring ring-2"></div>
+              <div class="wave-ring ring-1"></div>
+              <button id="mic-btn" class="mic-btn-main disabled" disabled title="Auto-listening active. Click to force-send your speech.">
+                <i class="fa-solid fa-microphone"></i>
+              </button>
+            </div>
+            <p id="mic-status-label" class="voice-label">Input Disabled</p>
+            
+            <!-- Fallback text field -->
+            <div class="chat-input-fallback hidden" id="chat-input-box">
+              <input type="text" id="chat-text-field" placeholder="Reply to Sarah here..." autocomplete="off">
+              <button id="chat-send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Qualification Summary & CRM Manager -->
+      <div class="grid-column">
+        <!-- 1. Summary Card -->
+        <section class="card glassmorphism summary-card">
+          <div class="card-header">
+            <h2><i class="fa-solid fa-chart-line"></i> Dialogue Qualification Summary</h2>
+            <button id="fetch-summary-btn" class="small-btn hidden"><i class="fa-solid fa-arrows-rotate"></i> Sync</button>
+          </div>
+
+          <div class="summary-body" id="summary-body-box">
+            <!-- Summary fields populated after call ends -->
+            <div class="summary-empty-state">
+              <i class="fa-solid fa-clipboard-list"></i>
+              <p>Summary report will generate dynamically when the conversation finishes.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. Manual Action overrides (CRM tool) -->
+        <section class="card glassmorphism booking-card">
+          <div class="card-header">
+            <h2><i class="fa-solid fa-calendar-check"></i> Direct Booking Status</h2>
+          </div>
+          <div class="booking-status-box">
+            <div class="booking-field-row">
+              <span>Site Visit Status:</span>
+              <span class="status-tag" id="site-visit-tag">NOT SCHEDULED</span>
+            </div>
+            <div class="booking-field-row">
+              <span>Callback Follow-up:</span>
+              <span class="status-tag" id="follow-up-tag">NOT SCHEDULED</span>
+            </div>
+            <hr class="divider">
+            <div class="manual-booking-actions">
+              <h3>Manual Override Actions</h3>
+              <div class="manual-input-grid">
+                <div class="form-group">
+                  <label for="manual-date">Date</label>
+                  <input type="text" id="manual-date" placeholder="e.g. Saturday" autocomplete="off">
+                </div>
+                <div class="form-group">
+                  <label for="manual-time">Time</label>
+                  <input type="text" id="manual-time" placeholder="e.g. 11 AM" autocomplete="off">
+                </div>
+              </div>
+              <div class="manual-btn-row">
+                <button id="manual-visit-btn" class="action-btn small-btn disabled" disabled><i class="fa-solid fa-route"></i> Book Visit</button>
+                <button id="manual-followup-btn" class="action-btn small-btn disabled" disabled><i class="fa-solid fa-phone"></i> Save Callback</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </main>
+  </div>
+  
+  <script src="/static/app.js"></script>
+</body>
+</html>

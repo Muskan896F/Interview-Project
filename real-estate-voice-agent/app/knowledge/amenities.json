@@ -1,0 +1,23 @@
+{
+  "amenities": [
+    "Clubhouse sathe fully-equipped Gymnasium",
+    "Swimming Pool ane Kid's Pool",
+    "Landscaped Garden sathe Jogging Track",
+    "Children's Play Area ane Indoor Games room",
+    "24/7 Multi-tier Security sathe CCTV",
+    "Electric Vehicle (EV) charging point facility",
+    "Rainwater harvesting system",
+    "Power backup facility common areas mate"
+  ],
+  "nearby_facilities": {
+    "schools": [
+      "The Apple Global School (1.5 km)",
+      "DPS Bopal (3.2 km)",
+      "New Balaram School (2.0 km)"
+    ],
+    "hospitals": [
+      "Krishna Shalby Hospital (4.0 km)",
+      "Saraswati Hospital (2.5 km)"
+    ]
+  }
+}

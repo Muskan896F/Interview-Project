@@ -1,0 +1,56 @@
+{
+  "configurations": [
+    {
+      "type": "2 BHK Comfort",
+      "carpet_area_sqft": 950,
+      "base_price_lakh": 45,
+      "all_inclusive_price_lakh": 52,
+      "maintenance_monthly": 2500
+    },
+    {
+      "type": "2 BHK Premium",
+      "carpet_area_sqft": 1100,
+      "base_price_lakh": 55,
+      "all_inclusive_price_lakh": 63,
+      "maintenance_monthly": 3000
+    },
+    {
+      "type": "3 BHK Luxury",
+      "carpet_area_sqft": 1450,
+      "base_price_lakh": 75,
+      "all_inclusive_price_lakh": 85,
+      "maintenance_monthly": 4000
+    },
+    {
+      "type": "3 BHK Ultra Luxury",
+      "carpet_area_sqft": 1750,
+      "base_price_lakh": 95,
+      "all_inclusive_price_lakh": 108,
+      "maintenance_monthly": 5000
+    },
+    {
+      "type": "4 BHK Penthouse",
+      "carpet_area_sqft": 2400,
+      "base_price_lakh": 130,
+      "all_inclusive_price_lakh": 150,
+      "maintenance_monthly": 7500
+    }
+  ],
+  "payment_plans": [
+    {
+      "name": "Construction Linked Plan (CLP)",
+      "description": "Pay in installments linked to construction milestones — 10% booking, 85% during construction, 5% on possession."
+    },
+    {
+      "name": "Down Payment Plan",
+      "description": "Pay 50% upfront and get 3% discount on base price. Remaining 50% on possession."
+    },
+    {
+      "name": "Flexi EMI Plan",
+      "description": "Pay only interest during construction. Full EMI starts after possession. Available with all major banks."
+    }
+  ],
+  "bank_approvals": [
+    "SBI", "HDFC Bank", "ICICI Bank", "Bank of Baroda", "Axis Bank", "Kotak Mahindra"
+  ]
+}
